@@ -19,7 +19,7 @@ function App() {
         </a>
       </div>
       <h1> Name : {name}</h1>
-      <h1> Role : {batch}</h1>
+      <h1> Batch : {batch}</h1>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
