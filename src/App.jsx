@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const name  = "Prabhu raj S"
-  const role  = "Developer"
+  const batch  = "FSD58WE-T"
   return (
     <>
       <div>
@@ -19,7 +19,7 @@ function App() {
         </a>
       </div>
       <h1> Name : {name}</h1>
-      <h1> Role : {role}</h1>
+      <h1> Role : {batch}</h1>
 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
